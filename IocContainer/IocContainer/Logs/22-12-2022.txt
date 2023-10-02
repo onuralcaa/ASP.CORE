@@ -1,0 +1,3 @@
+﻿##INFO## &&12:12&& | message : Index action içerisine bir istek gelmiştir.
+##INFO## &&12:52&& | message : Index action içerisine bir istek gelmiştir.
+##INFO## &&12:55&& | message : Action bazlı talep yapılmıştır.

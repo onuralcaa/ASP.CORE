@@ -1,0 +1,10 @@
+﻿@model List<Category>
+
+<h2 style="text-align">Kategori Listesi</h2>
+
+<ul>
+	@foreach (Category item in Model)
+	{
+		<li>@item.CategoryName</li>
+	}
+</ul>

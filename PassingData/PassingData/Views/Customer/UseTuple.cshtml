@@ -1,0 +1,18 @@
+﻿@using PassingData.Models
+@model (List<Customer> customers, string date, Product product)//değişkenler isimlendirildi.
+
+
+<p>
+	Tarih: @Model.date
+</p>
+
+<ul>
+	@foreach (Customer item in Model.customers)
+	{
+		<li>@item.FirstName</li>
+	}
+</ul>
+
+<p>
+	Ürün: @Model.product.ProductName
+</p>
